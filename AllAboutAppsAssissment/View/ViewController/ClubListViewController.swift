@@ -106,6 +106,7 @@ extension ClubListViewController : UITableViewDelegate {
         if let viewController = storyboard.instantiateViewController(withIdentifier: String(describing: ClubDetailsViewcontroller.self)) as? ClubDetailsViewcontroller {
             viewController.viewModel = viewModel
             self.navigationController?.pushViewController(viewController, animated: true)
+            self.clubsList.deselectRow(at: indexPath, animated: true)
         }
         
     }
