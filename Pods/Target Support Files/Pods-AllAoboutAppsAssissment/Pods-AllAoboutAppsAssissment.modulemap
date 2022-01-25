@@ -1,6 +1,0 @@
-framework module Pods_AllAoboutAppsAssissment {
-  umbrella header "Pods-AllAoboutAppsAssissment-umbrella.h"
-
-  export *
-  module * { export * }
-}
