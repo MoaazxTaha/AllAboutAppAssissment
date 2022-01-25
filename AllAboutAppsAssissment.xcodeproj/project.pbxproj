@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		00675F97E3D79F148C7A2C3A /* Pods_AllAoboutAppsAssissment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AllAoboutAppsAssissment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		427E4625279ECCCE00D37338 /* AllAoboutAppsAssissment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAoboutAppsAssissment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427E4625279ECCCE00D37338 /* AllAboutAppsAssissment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllAboutAppsAssissment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427E4628279ECCCE00D37338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		427E462A279ECCCE00D37338 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		427E462C279ECCCE00D37338 /* ClubListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubListViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		427E461C279ECCCE00D37338 = {
 			isa = PBXGroup;
 			children = (
-				427E4627279ECCCE00D37338 /* AllAoboutAppsAssissment */,
+				427E4627279ECCCE00D37338 /* AllAboutAppsAssissment */,
 				427E4626279ECCCE00D37338 /* Products */,
 				6BAA5B877FF984FA82DB6823 /* Pods */,
 				AB16DB8AAE2A2297C2BFFEC4 /* Frameworks */,
@@ -85,12 +85,12 @@
 		427E4626279ECCCE00D37338 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				427E4625279ECCCE00D37338 /* AllAoboutAppsAssissment.app */,
+				427E4625279ECCCE00D37338 /* AllAboutAppsAssissment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		427E4627279ECCCE00D37338 /* AllAoboutAppsAssissment */ = {
+		427E4627279ECCCE00D37338 /* AllAboutAppsAssissment */ = {
 			isa = PBXGroup;
 			children = (
 				427E466C279F73AA00D37338 /* AppManager */,
@@ -102,7 +102,7 @@
 				427E4671279F7F6300D37338 /* Resources */,
 				427E4636279ECCCF00D37338 /* Info.plist */,
 			);
-			path = AllAoboutAppsAssissment;
+			path = AllAboutAppsAssissment;
 			sourceTree = "<group>";
 		};
 		427E463C279ECCEF00D37338 /* Shared */ = {
@@ -226,9 +226,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		427E4624279ECCCE00D37338 /* AllAoboutAppsAssissment */ = {
+		427E4624279ECCCE00D37338 /* AllAboutAppsAssissment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 427E4639279ECCCF00D37338 /* Build configuration list for PBXNativeTarget "AllAoboutAppsAssissment" */;
+			buildConfigurationList = 427E4639279ECCCF00D37338 /* Build configuration list for PBXNativeTarget "AllAboutAppsAssissment" */;
 			buildPhases = (
 				D2C49B32A0F880C52691B4AE /* [CP] Check Pods Manifest.lock */,
 				427E4621279ECCCE00D37338 /* Sources */,
@@ -240,9 +240,9 @@
 			);
 			dependencies = (
 			);
-			name = AllAoboutAppsAssissment;
+			name = AllAboutAppsAssissment;
 			productName = AllAoboutAppsAssissment;
-			productReference = 427E4625279ECCCE00D37338 /* AllAoboutAppsAssissment.app */;
+			productReference = 427E4625279ECCCE00D37338 /* AllAboutAppsAssissment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -259,7 +259,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 427E4620279ECCCE00D37338 /* Build configuration list for PBXProject "AllAoboutAppsAssissment" */;
+			buildConfigurationList = 427E4620279ECCCE00D37338 /* Build configuration list for PBXProject "AllAboutAppsAssissment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -273,7 +273,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				427E4624279ECCCE00D37338 /* AllAoboutAppsAssissment */,
+				427E4624279ECCCE00D37338 /* AllAboutAppsAssissment */,
 			);
 		};
 /* End PBXProject section */
@@ -516,14 +516,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = AllAoboutAppsAssissment/Info.plist;
+				INFOPLIST_FILE = AllAboutAppsAssissment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moaaz.AllAoboutAppsAssissment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moaaz.AllAboutAppsAssissment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/moaaztaha/Documents/AllAoboutAppsAssissment/Pods/PodsBriddge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/moaaztaha/Documents/AllAboutAppsAssissment/Pods/PodsBriddge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -537,14 +537,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = AllAoboutAppsAssissment/Info.plist;
+				INFOPLIST_FILE = AllAboutAppsAssissment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Moaaz.AllAoboutAppsAssissment;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Moaaz.AllAboutAppsAssissment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/moaaztaha/Documents/AllAoboutAppsAssissment/Pods/PodsBriddge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/moaaztaha/Documents/AllAboutAppsAssissment/Pods/PodsBriddge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -553,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		427E4620279ECCCE00D37338 /* Build configuration list for PBXProject "AllAoboutAppsAssissment" */ = {
+		427E4620279ECCCE00D37338 /* Build configuration list for PBXProject "AllAboutAppsAssissment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				427E4637279ECCCF00D37338 /* Debug */,
@@ -562,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		427E4639279ECCCF00D37338 /* Build configuration list for PBXNativeTarget "AllAoboutAppsAssissment" */ = {
+		427E4639279ECCCF00D37338 /* Build configuration list for PBXNativeTarget "AllAboutAppsAssissment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				427E463A279ECCCF00D37338 /* Debug */,
