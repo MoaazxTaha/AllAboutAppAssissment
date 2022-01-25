@@ -517,13 +517,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AllAboutAppsAssissment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Moaaz.AllAboutAppsAssissment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/moaaztaha/Documents/AllAboutAppsAssissment/AllAboutAppsAssissment/Resources/PodsBridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = AllAboutAppsAssissment/Resources/PodsBridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -538,13 +539,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AllAboutAppsAssissment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Moaaz.AllAboutAppsAssissment;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = /Users/moaaztaha/Documents/AllAboutAppsAssissment/AllAboutAppsAssissment/Resources/PodsBridge.h;
+				SWIFT_OBJC_BRIDGING_HEADER = AllAboutAppsAssissment/Resources/PodsBridge.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
