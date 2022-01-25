@@ -17,7 +17,7 @@ class ClubDetailsViewcontroller: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         loadDetails()
-        
+        self.title = viewModel?.club?.name
     }
     
     private func loadDetails() {
@@ -35,11 +35,9 @@ class ClubDetailsViewcontroller: BaseViewController {
         let description = NSMutableAttributedString(string: "The club ".localized())
         description.append(AttrCountry)
         description.append(NSAttributedString(string: "ClubDetails.description".localized().replacingOccurrences(of: "[country]", with: club.country ?? "").replacingOccurrences(of: "[value]", with: "\(club.value ?? 0)")))
+       
         // set attributed text on a UILabel
         Details.attributedText = description
-        
-
     }
-
 }
 
