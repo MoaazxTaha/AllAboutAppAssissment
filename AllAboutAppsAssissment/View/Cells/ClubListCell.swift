@@ -22,7 +22,7 @@ class ClubListCell: UITableViewCell {
         clubLogo.sd_setImage(with: URL(string:(club.image!)))
         clubName.text = club.name
         clubNationality.text = club.country
-        clubValue.text = String(describing: club.value!) + "  Million".localized()
+        clubValue.text = String(describing: club.value!) + "Million".localized()
     }
     
     

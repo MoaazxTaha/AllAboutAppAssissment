@@ -32,7 +32,7 @@ class ClubDetailsViewcontroller: BaseViewController {
         let fontAttribute = [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 17)]
         let AttrCountry = NSAttributedString(string: club.name ?? "", attributes: fontAttribute)
 
-        let description = NSMutableAttributedString(string: "The club ".localized())
+        let description = NSMutableAttributedString(string: "The club".localized())
         description.append(AttrCountry)
         description.append(NSAttributedString(string: "ClubDetails.description".localized().replacingOccurrences(of: "[country]", with: club.country ?? "").replacingOccurrences(of: "[value]", with: "\(club.value ?? 0)")))
        
